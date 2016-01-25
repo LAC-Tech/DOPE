@@ -17,21 +17,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 |#
 
-#|
-DOPE - Declarative Protype Object Extension.
-    
-Features:
-- Prototype based, no distinction between classes and instances.
-- Multiple inheritance, methods are looked up in depth first search
-- Declarative syntax, can create an object with a single macro, no need to clone
-  and mutate
-- Immutable objects, which can be inherited by and inherit from mutable ones
-
-thanks to: 
--rapacity, offby1, jeapostrophe, jonrafkind, mithos28, neilv, asumu and 
- everyone in #racket on freenode
-|#
-
 (require racket/serialize)
 (require rackunit)
 (require racket/contract)
